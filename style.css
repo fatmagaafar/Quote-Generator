@@ -1,3 +1,7 @@
+@font-face {
+    font-family:"Courgette";
+    src: url(assets/fonts/Courgette-Regular.ttf);
+}
 * {
   margin: 0;
   padding: 0;
@@ -34,15 +38,12 @@ body {
   background-color: rgba(255, 255, 255, 0.3);
   margin: 10px;
   z-index: 0;
+  font-family:"Courgette";
 }
-.fa-quote-left,
-.fa-quote-right {
-  font-size: 35px;
-  color: rgb(179, 0, 0);
-}
+
 .quote {
   text-align: center;
-  font-size: 40px;
+  font-size: 30px;
   font-weight: bold;
 }
 .author {
@@ -61,7 +62,7 @@ hr {
 .buttons {
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   margin-top: 9px;
 }
@@ -75,7 +76,6 @@ hr {
   background-origin: border-box;
   background-clip: content-box, border-box;
   box-shadow: 2px 1000px 1px #20202a inset;
-  width: 50%;
   transition: none !important;
   color: #fff;
   padding: 20px;
